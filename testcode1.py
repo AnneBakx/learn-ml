@@ -47,9 +47,8 @@ for i in range(1500):
         print("Input : \n" + str(X))
         print("Actual Output: \n" + str(y))
         print("Predicted Output: \n" + str(NN.feedforward()))
-        print("Loss: \n" + str(np.mean(np.square(y-NN.feedforward()))))
+        #print("Loss: \n" + str(np.mean(np.square(y-NN.feedforward()))))
         print("\n")
     
     NN.train(X,y)
-
 
